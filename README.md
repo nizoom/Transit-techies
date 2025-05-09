@@ -4,7 +4,7 @@
 
 In this notebook, we visualize Citibike trip data in NYC using a time-based heatmap. The dataset includes over 2 million trips taken in February. Each trip has a start and end location with timestamps. We aggregate trip counts by hour and round the latitude/longitude to generate a gridded heatmap for smoother spatial visualization.
 
-To avoid cluttering the map with millions of individual lines or points, we bin trip start and end locations into a grid and count how many trips occur in each cell over time.
+To avoid cluttering the map with millions of individual lines or points, we bin trip start and end locations into groups and count how many trips occur in each group over time.
 
 The result is an animated map that shows where trips start or end throughout the day across NYC.
 
